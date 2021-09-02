@@ -1,0 +1,8 @@
+.testimonial-bg {
+  background: url("../../../images/DSC_0818-2.jpg") no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.968);
+}

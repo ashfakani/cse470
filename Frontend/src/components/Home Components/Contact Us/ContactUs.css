@@ -1,0 +1,174 @@
+#contact {
+  background: url("../../../images/DSC_0155.jpg") no-repeat;
+  background-size: cover;
+}
+
+#contact .overlay {
+  background: rgba(0, 0, 0, 0.968);
+}
+
+#contact h2 {
+  color: white;
+}
+
+.dashed-hr {
+  border-top: 4px dashed white;
+}
+
+#contact form {
+  position: relative;
+}
+
+#contact .form-group label {
+  display: block;
+  color: white;
+  font-weight: normal;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+  outline: none;
+  border: 0;
+  border-bottom: 6px solid #114190;
+  padding: 9px;
+  background-color: #2b2b2b;
+  color: white;
+}
+
+#contact .form-group input#emailTXT {
+  width: 75%;
+  border-bottom: 6px solid #e11a61;
+}
+
+#contact .form-group input#emailTXT {
+  border-bottom: 6px solid #e11a61;
+}
+
+#contact .form-group input#subjectTXT {
+  width: 55%;
+  border-bottom: 6px solid #9d1098;
+}
+
+#contact .form-group input#messageTXT {
+  border-bottom: 6px solid #9d1098;
+}
+
+#contact .form-group #messageTXT {
+  border-bottom: 6px solid #9d102b;
+  resize: none;
+}
+
+.frame-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 10px;
+  display: inline-block;
+  padding: 25px 30px;
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  position: relative;
+}
+.frame-btn__text {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 300ms ease;
+  position: relative;
+}
+.frame-btn:hover .frame-btn__text {
+  color: black;
+}
+.frame-btn__solid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  background-color: white;
+  width: calc(100% - (5px * 4));
+  height: calc(100% - (5px * 4));
+  transform-origin: 50%;
+  transform: scale(0.85);
+  opacity: 0;
+  transition: 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.frame-btn:hover .frame-btn__solid {
+  opacity: 1;
+  transform: scale(1);
+}
+.frame-btn__outline {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frame-btn__outline--tall {
+  margin: 0 5px;
+  width: calc(100% - (5px * 2));
+  height: 100%;
+}
+.frame-btn__outline--flat {
+  margin: 5px 0;
+  height: calc(100% - (5px * 2));
+  width: 100%;
+}
+.frame-btn__line {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.frame-btn__line--tall:before,
+.frame-btn__line--tall:after {
+  height: 100%;
+  width: 1px;
+  top: 0;
+}
+.frame-btn:hover .frame-btn__outline--flat .frame-btn__line--tall:before,
+.frame-btn:hover .frame-btn__outline--flat .frame-btn__line--tall:after {
+  transform: scaleY(0);
+}
+.frame-btn:hover .frame-btn__outline--tall .frame-btn__line--tall:before,
+.frame-btn:hover .frame-btn__outline--tall .frame-btn__line--tall:after {
+  margin: 5px 0;
+  height: calc(100% - (5px * 2));
+}
+.frame-btn__line--tall:before {
+  left: 0;
+}
+.frame-btn__line--tall:after {
+  right: 0;
+}
+.frame-btn__line--flat:before,
+.frame-btn__line--flat:after {
+  width: 100%;
+  height: 1px;
+  left: 0;
+}
+.frame-btn:hover .frame-btn__outline--tall .frame-btn__line--flat:before,
+.frame-btn:hover .frame-btn__outline--tall .frame-btn__line--flat:after {
+  transform: scaleX(0);
+}
+.frame-btn:hover .frame-btn__outline--flat .frame-btn__line--flat:before,
+.frame-btn:hover .frame-btn__outline--flat .frame-btn__line--flat:after {
+  margin: 0 5px;
+  width: calc(100% - (5px * 2));
+}
+.frame-btn__line--flat:before {
+  top: 0;
+}
+.frame-btn__line--flat:after {
+  bottom: 0;
+}
+.frame-btn__line:before,
+.frame-btn__line:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: white;
+  transition: 800ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.frame-btn:hover .frame-btn__line:before,
+.frame-btn:hover .frame-btn__line:after {
+  transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
