@@ -1,11 +1,11 @@
 import React from "react";
 import pic1 from "../../../images/team-1-min.jpg";
-import pic2 from "../../../images/Team-2-min.JPG";
+import pic2 from "../../../images/team-2-min.jpg";
 import pic3 from "../../../images/team-3-min.jpg";
 import "./ProfessionalTeam.css";
 const teamInfo = [
   {
-    name: "Sakib Mahboob",
+    name: "Ashfak Ahmed Ani",
     Role: "CEO & Core Photographer",
     image: pic2,
   },
@@ -15,7 +15,7 @@ const teamInfo = [
     image: pic1,
   },
   {
-    name: "Fayek Al Rafi",
+    name: "Mahir Ashhab Taron",
     Role: " Core Photographer & Cinematographer",
     image: pic3,
   },
