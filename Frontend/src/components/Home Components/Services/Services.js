@@ -16,7 +16,8 @@ const Services = () => {
     history.push(`/bookService/${id}`);
   };
   return (
-    <div style={{ marginTop: "8%" }}>
+
+    <div data-testid="services" style={{ marginTop: "8%" }}>
       <h1 className="text-center mt-5 heading-txt">
         Our <span className="heading-portion">Services</span>{" "}
       </h1>

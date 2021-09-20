@@ -10,7 +10,7 @@ import pic10 from "../../../images/G-10-min.jpg";
 
 const ExploreGallery = () => {
   return (
-    <div style={{ marginTop: "8%" }}>
+    <div data-testid="images" style={{ marginTop: "8%" }}>
       <h1 className="text-center mt-5 heading-txt">
         Explore Our <span className="heading-portion">Gallery</span>{" "}
       </h1>

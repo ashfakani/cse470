@@ -23,7 +23,7 @@ const teamInfo = [
 
 const ProfessionalTeam = () => {
   return (
-    <div style={{ marginTop: "8%" }}>
+    <div data-testid="team" style={{ marginTop: "8%" }}>
       <h1 className="text-center mt-5 heading-txt">
         Meet Our <span className="heading-portion">Professional Team</span>
       </h1>
